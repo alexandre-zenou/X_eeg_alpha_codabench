@@ -1,11 +1,9 @@
-# Timeline
+# Timeline / Phases
 
-## Development phase
-This phase should be used to tune your models, testing against a small
-set of testing data
+This competition has two evaluation splits:
 
-## Final phase
-Resubmit your preferred submission from the development phase to test
-against a new set of testing data. Your model will be trained against
-the same set of training data as in the development phase. You may only
-make one submission to this phase, so choose wisely.
+## Public test (test phase)
+Your submissions are evaluated on a public test set and a public score is displayed on the leaderboard.
+
+## Private test (final ranking)
+A separate private test set is used to compute the final ranking.

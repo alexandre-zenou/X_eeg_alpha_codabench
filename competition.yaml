@@ -1,11 +1,13 @@
 version: 2
-title: Templat competition - Dummy classification
-description: Dummy classification task
+title: EEG Alpha Waves - Binary Classification
+description: Predict a binary label from EEG-derived features computed on short windows (Rodrigues2017 / Zenodo).
 image: logo.png
-registration_auto_approve: False  # if True, do not require approval from admin to join the comp
+registration_auto_approve: False
 
 terms: pages/terms.md
 pages:
+  - title: Overview
+    file: pages/overview.md
   - title: Participation
     file: pages/participate.md
   - title: Seed
@@ -32,7 +34,7 @@ solutions:
 phases:
   - name: Development Phase
     description: 'Development phase: tune your models.'
-    start: 10-07-2025
+    start: 03-02-2026
     end: 03-31-2026
     tasks:
       - 0
@@ -44,17 +46,17 @@ leaderboards:
       - title: Test Accuracy
         key: test
         index: 0
-        sorting: asc
+        sorting: desc
       - title: Private Test Accuracy
         key: private_test
         index: 1
-        sorting: asc
+        sorting: desc
         hidden: True
       - title: Train time
         key: train_time
         index: 2
-        sorting: desc
+        sorting: asc
       - title: Test time
         key: test_time
         index: 3
-        sorting: desc
+        sorting: asc

@@ -1,10 +1,16 @@
 # How to participate
 
-You should submit an untrained model in a python file `model.py` which contains
-your `class Model`, which will be imported, trained, and tested on Codalab.
+## What to submit
+Submit a single Python file named `submission.py`.
 
-See the "Seed" page for the outline of a `Model` class, with the expected
-function names.
+It must define a function:
 
-See the "Timeline" page for additional information about the phases of this
-competition
+```python
+def get_model():
+    """
+    Return an *untrained* scikit-learn compatible model.
+    The ingestion program will call:
+      - model.fit(X_train, y_train)
+      - model.predict(X_test)
+    """
+    ...
