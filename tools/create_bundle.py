@@ -13,6 +13,7 @@ BUNDLE_FILES = [
     ROOT_DIR / "competition.yaml",
     ROOT_DIR / "logo.png",
     ROOT_DIR / "solution/submission.py",
+    ROOT_DIR / "starting_kit.ipynb",
 ]
 
 
