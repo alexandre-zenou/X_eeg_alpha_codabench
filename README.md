@@ -4,6 +4,8 @@
 - Alexandre HEYMANN
 - Mohamed MOHAMED EL BECHIR
 - Noé AMAR
+- Olivier Fontaine
+- Alexandre Zénou
 
 ## Overview
 
