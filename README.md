@@ -154,5 +154,5 @@ Final submission includes:
 - Codabench competition URL
 - Working bundle
 - Starting kit notebook
-- 
+
 
