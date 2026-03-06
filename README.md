@@ -5,7 +5,7 @@
 - Mohamed MOHAMED EL BECHIR
 - Noé AMAR
 - Olivier Fontaine
-- Alexandre Zénou
+- Alexandre Zenou
 
 ## Overview
 
